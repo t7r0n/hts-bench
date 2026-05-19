@@ -1,2 +1,0 @@
-[console_scripts]
-hts-bench = hts_bench.cli:main
