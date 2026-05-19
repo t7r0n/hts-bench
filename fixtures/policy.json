@@ -1,0 +1,18 @@
+{
+  "company": "GingerControl",
+  "repo": "hts-bench",
+  "metrics": [
+    "gingercontrol_coverage",
+    "strongest_risk",
+    "claim_precision",
+    "reasoning_latency"
+  ],
+  "failure_modes": [
+    "gingercontrol_drift",
+    "strongest_gap",
+    "claim_misroute",
+    "reasoning_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}

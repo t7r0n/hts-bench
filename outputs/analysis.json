@@ -1,0 +1,82 @@
+{
+  "company": "GingerControl",
+  "repo": "hts-bench",
+  "cases": 144,
+  "status_counts": {
+    "pass": 111,
+    "review": 19,
+    "block": 14
+  },
+  "clusters": [
+    {
+      "scenario": "claim failure replay",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 4,
+      "mean_severity": 3.333,
+      "mean_score": 0.5296,
+      "top_evidence_id": "ev_0110",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "gingercontrol drift",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 3,
+      "mean_severity": 2.5,
+      "mean_score": 0.4082,
+      "top_evidence_id": "ev_0088",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "gingercontrol evidence recall",
+      "cases": 24,
+      "blocks": 3,
+      "reviews": 3,
+      "mean_severity": 1.875,
+      "mean_score": 0.2865,
+      "top_evidence_id": "ev_0132",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "reasoning policy boundary",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 3,
+      "mean_severity": 1.708,
+      "mean_score": 0.2667,
+      "top_evidence_id": "ev_0099",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "strongest gap",
+      "cases": 24,
+      "blocks": 3,
+      "reviews": 2,
+      "mean_severity": 3.333,
+      "mean_score": 0.5154,
+      "top_evidence_id": "ev_0011",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "strongest reviewer handoff",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 4,
+      "mean_severity": 2.583,
+      "mean_score": 0.4171,
+      "top_evidence_id": "ev_0055",
+      "recommended_action": "block release until replay is understood"
+    }
+  ],
+  "highest_risk": {
+    "scenario": "strongest gap",
+    "cases": 24,
+    "blocks": 3,
+    "reviews": 2,
+    "mean_severity": 3.333,
+    "mean_score": 0.5154,
+    "top_evidence_id": "ev_0011",
+    "recommended_action": "block release until replay is understood"
+  }
+}
