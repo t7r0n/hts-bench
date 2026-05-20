@@ -1,7 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-claim failure replay,24,2,4,3.333,0.5296,ev_0110,block release until replay is understood
-gingercontrol drift,24,2,3,2.5,0.4082,ev_0088,block release until replay is understood
-gingercontrol evidence recall,24,3,3,1.875,0.2865,ev_0132,block release until replay is understood
-reasoning policy boundary,24,2,3,1.708,0.2667,ev_0099,block release until replay is understood
-strongest gap,24,3,2,3.333,0.5154,ev_0011,block release until replay is understood
-strongest reviewer handoff,24,2,4,2.583,0.4171,ev_0055,block release until replay is understood
+claim regression harness,36,3,5,2.528,0.3779,ev_0110,open a regression issue with trace and benchmark delta
+gingercontrol evidence replay,36,4,5,2.611,0.4047,ev_0000,block release until cited evidence is regenerated
+reasoning operator packet,36,4,5,2.556,0.3863,ev_0011,accept only if decision claims cite fixture evidence
+strongest boundary probe,36,3,4,2.528,0.3943,ev_0033,route to reviewer with evidence packet

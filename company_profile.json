@@ -40,6 +40,28 @@
     "claim_misroute",
     "reasoning_blindspot"
   ],
+  "archetypes": [
+    {
+      "name": "gingercontrol evidence replay",
+      "trigger": "gingercontrol signal changes while strongest context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "strongest boundary probe",
+      "trigger": "strongest handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "reasoning operator packet",
+      "trigger": "reasoning output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
   "sources": [
     "https://gingercontrol.com/blog/ai-trade-compliance",
     "https://gingercontrol.com/blog/automated-hts-code-classification-tools",
