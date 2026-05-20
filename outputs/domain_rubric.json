@@ -1,18 +1,18 @@
 {
   "repo": "hts-bench",
-  "company": "GingerControl",
+  "company": "Hts Bench",
   "rubric_axes": [
     {
-      "axis": "gingercontrol_coverage",
+      "axis": "evidence_coverage",
       "failures": [
-        "gingercontrol_drift"
+        "evidence_drift"
       ],
       "evidence_required": true
     },
     {
-      "axis": "strongest_risk",
+      "axis": "handoff_risk",
       "failures": [
-        "strongest_gap"
+        "handoff_gap"
       ],
       "evidence_required": true
     },
@@ -24,22 +24,22 @@
       "evidence_required": true
     },
     {
-      "axis": "reasoning_latency",
+      "axis": "review_latency",
       "failures": [
-        "reasoning_blindspot"
+        "review_blindspot"
       ],
       "evidence_required": true
     }
   ],
   "archetypes": [
     {
-      "name": "gingercontrol evidence replay",
-      "trigger": "gingercontrol signal changes while strongest context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "strongest boundary probe",
-      "trigger": "strongest handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
@@ -48,21 +48,10 @@
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "reasoning operator packet",
-      "trigger": "reasoning output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources_used": [
-    "https://gingercontrol.com/blog/ai-trade-compliance",
-    "https://gingercontrol.com/blog/automated-hts-code-classification-tools",
-    "https://gingercontrol.com/blog/hs-code-classification-marketplace",
-    "https://gingercontrol.com/about",
-    "https://www.gingercontrol.com/services/features",
-    "https://www.trysignalbase.com/news/funding/gingercontrol-secures-21m-seed",
-    "https://www.backed.vc/portfolio/ginger-control",
-    "https://www.crunchbase.com/organization/gingercontrol",
-    "https://rulings.cbp.gov/",
-    "https://www.linkedin.com/in/chen-cui-6853271b8/"
-  ]
+  "sources_used": []
 }

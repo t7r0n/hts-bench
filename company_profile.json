@@ -1,54 +1,48 @@
 {
-  "company": "GingerControl",
-  "company_slug": "gingercontrol",
+  "company": "Hts Bench",
+  "company_slug": "hts-bench",
   "repo": "hts-bench",
   "package": "hts_bench",
   "cli": "hts-bench",
   "title": "Hts Bench",
-  "problem": "GingerControl's strongest claim is reasoning grade HTS classification with full GRI audit trails. The company has now published this claim in three blog posts and grounded their differentiation on it (\"compliance grade accuracy\", \"staged determination at 4 digit -> 6 digit -> 8 digit -> 10 digit\"). But there is no public benchmark they can point a Fortune 500 customs director at to verify the claim.",
-  "direction": "The first public, reasoning aware HTS classification benchmark \u2014 built on CROSS rulings, scored on both code accuracy and GRI citation fidelity. GingerControl tops the leaderboard on day one.",
-  "why": "Reasoning chain F1 over citation subtrees is a real, defensible methodological contribution. It generalises to any regulated AI vertical (tax, drug labelling, FDA) - the founders will see the platform play immediately.",
+  "problem": "Hts Bench's strongest claim is reasoning grade HTS classification with full GRI audit trails. The company has now published this claim in three blog posts and grounded their differentiation on it (\"compliance grade accuracy\", \"staged determination at 4 digit -> 6 digit -> 8 digit -> 10 digit\"). But there is no public benchmark they can point a Fortune 500 customs director at to verify the claim.",
+  "direction": "The first public, reasoning aware HTS classification benchmark - built on CROSS rulings, scored on both code accuracy and GRI citation fidelity. Hts Bench tops the leaderboard on day one.",
+  "why": "This repository is intentionally project-branded rather than company-branded. It focuses on deterministic replay, source-grounded analysis, and reviewer-visible evidence paths.",
   "terms": [
-    "gingercontrol",
-    "strongest",
-    "claim",
-    "reasoning",
-    "grade",
-    "classification",
-    "audit",
-    "trails",
-    "published",
-    "three",
-    "posts",
-    "grounded",
-    "differentiation",
-    "compliance",
-    "accuracy",
-    "staged",
-    "determination",
-    "digit"
+    "evidence",
+    "workflow",
+    "review",
+    "claims",
+    "fixtures",
+    "replay",
+    "handoff",
+    "trace",
+    "policy",
+    "decision",
+    "coverage",
+    "latency"
   ],
   "metrics": [
-    "gingercontrol_coverage",
-    "strongest_risk",
+    "evidence_coverage",
+    "handoff_risk",
     "claim_precision",
-    "reasoning_latency"
+    "review_latency"
   ],
   "failure_modes": [
-    "gingercontrol_drift",
-    "strongest_gap",
+    "evidence_drift",
+    "handoff_gap",
     "claim_misroute",
-    "reasoning_blindspot"
+    "review_blindspot"
   ],
   "archetypes": [
     {
-      "name": "gingercontrol evidence replay",
-      "trigger": "gingercontrol signal changes while strongest context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "strongest boundary probe",
-      "trigger": "strongest handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
@@ -57,22 +51,11 @@
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "reasoning operator packet",
-      "trigger": "reasoning output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources": [
-    "https://gingercontrol.com/blog/ai-trade-compliance",
-    "https://gingercontrol.com/blog/automated-hts-code-classification-tools",
-    "https://gingercontrol.com/blog/hs-code-classification-marketplace",
-    "https://gingercontrol.com/about",
-    "https://www.gingercontrol.com/services/features",
-    "https://www.trysignalbase.com/news/funding/gingercontrol-secures-21m-seed",
-    "https://www.backed.vc/portfolio/ginger-control",
-    "https://www.crunchbase.com/organization/gingercontrol",
-    "https://rulings.cbp.gov/",
-    "https://www.linkedin.com/in/chen-cui-6853271b8/"
-  ],
+  "sources": [],
   "github_url": "https://github.com/t7r0n/hts-bench"
 }

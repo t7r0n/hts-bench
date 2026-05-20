@@ -1,7 +1,7 @@
 [project]
 name = "hts-bench"
 version = "0.1.0"
-description = "The first public, reasoning aware HTS classification benchmark - built on CROSS rulings, scored on both code accuracy and GRI citation fidel"
+description = "The first public, reasoning aware HTS classification benchmark - built on CROSS rulings, scored on both code accuracy an"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [

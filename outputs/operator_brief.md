@@ -1,13 +1,13 @@
-# Operator Brief: GingerControl
+# Operator Brief: Hts Bench
 
-GingerControl gets a local, deterministic pressure test around gingercontrol, strongest, and claim. The useful part is the repeatable evidence path from fixture to failure to operator action.
+This local harness runs a deterministic pressure test around evidence, workflow, and review. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
-- gingercontrol evidence replay -> block release until cited evidence is regenerated (gingercontrol_coverage, evidence ev_0000).
-- reasoning operator packet -> accept only if decision claims cite fixture evidence (strongest_risk, evidence ev_0011).
+- evidence replay -> block release until cited evidence is regenerated (evidence_coverage, evidence ev_0088).
+- review operator packet -> accept only if decision claims cite fixture evidence (handoff_risk, evidence ev_0143).
 - claim regression harness -> open a regression issue with trace and benchmark delta (claim_precision, evidence ev_0110).
-- strongest boundary probe -> route to reviewer with evidence packet (reasoning_latency, evidence ev_0033).
+- handoff boundary probe -> route to reviewer with evidence packet (review_latency, evidence ev_0121).
 
 ## What makes this useful
 

@@ -1,5 +1,5 @@
 {
-  "company": "GingerControl",
+  "company": "Hts Bench",
   "repo": "hts-bench",
   "cases": 144,
   "status_counts": {
@@ -19,44 +19,44 @@
       "recommended_action": "open a regression issue with trace and benchmark delta"
     },
     {
-      "scenario": "gingercontrol evidence replay",
+      "scenario": "evidence replay",
       "cases": 36,
       "blocks": 4,
       "reviews": 5,
       "mean_severity": 2.611,
-      "mean_score": 0.4047,
-      "top_evidence_id": "ev_0000",
+      "mean_score": 0.4145,
+      "top_evidence_id": "ev_0088",
       "recommended_action": "block release until cited evidence is regenerated"
     },
     {
-      "scenario": "reasoning operator packet",
-      "cases": 36,
-      "blocks": 4,
-      "reviews": 5,
-      "mean_severity": 2.556,
-      "mean_score": 0.3863,
-      "top_evidence_id": "ev_0011",
-      "recommended_action": "accept only if decision claims cite fixture evidence"
-    },
-    {
-      "scenario": "strongest boundary probe",
+      "scenario": "handoff boundary probe",
       "cases": 36,
       "blocks": 3,
       "reviews": 4,
       "mean_severity": 2.528,
-      "mean_score": 0.3943,
-      "top_evidence_id": "ev_0033",
+      "mean_score": 0.3917,
+      "top_evidence_id": "ev_0121",
       "recommended_action": "route to reviewer with evidence packet"
+    },
+    {
+      "scenario": "review operator packet",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.556,
+      "mean_score": 0.4073,
+      "top_evidence_id": "ev_0143",
+      "recommended_action": "accept only if decision claims cite fixture evidence"
     }
   ],
   "highest_risk": {
-    "scenario": "gingercontrol evidence replay",
+    "scenario": "evidence replay",
     "cases": 36,
     "blocks": 4,
     "reviews": 5,
     "mean_severity": 2.611,
-    "mean_score": 0.4047,
-    "top_evidence_id": "ev_0000",
+    "mean_score": 0.4145,
+    "top_evidence_id": "ev_0088",
     "recommended_action": "block release until cited evidence is regenerated"
   }
 }

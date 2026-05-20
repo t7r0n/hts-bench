@@ -1,5 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
 claim regression harness,36,3,5,2.528,0.3779,ev_0110,open a regression issue with trace and benchmark delta
-gingercontrol evidence replay,36,4,5,2.611,0.4047,ev_0000,block release until cited evidence is regenerated
-reasoning operator packet,36,4,5,2.556,0.3863,ev_0011,accept only if decision claims cite fixture evidence
-strongest boundary probe,36,3,4,2.528,0.3943,ev_0033,route to reviewer with evidence packet
+evidence replay,36,4,5,2.611,0.4145,ev_0088,block release until cited evidence is regenerated
+handoff boundary probe,36,3,4,2.528,0.3917,ev_0121,route to reviewer with evidence packet
+review operator packet,36,4,5,2.556,0.4073,ev_0143,accept only if decision claims cite fixture evidence
