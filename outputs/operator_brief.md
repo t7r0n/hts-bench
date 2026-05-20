@@ -1,6 +1,6 @@
 # Operator Brief: GingerControl
 
-GingerControl gets a local, deterministic pressure test around gingercontrol, strongest, and claim. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+GingerControl gets a local, deterministic pressure test around gingercontrol, strongest, and claim. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
