@@ -1,6 +1,6 @@
 # Decision Report: Hts Bench
 
-The first public, reasoning aware HTS classification benchmark - built on CROSS rulings, scored on both code accuracy and GRI citation fidelity. GingerControl tops the leaderboard on day one.
+The first public, reasoning aware HTS classification benchmark — built on CROSS rulings, scored on both code accuracy and GRI citation fidelity. GingerControl tops the leaderboard on day one.
 
 ## Evidence-Grounded Findings
 

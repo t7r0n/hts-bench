@@ -6,7 +6,7 @@
   "cli": "hts-bench",
   "title": "Hts Bench",
   "problem": "GingerControl's strongest claim is reasoning grade HTS classification with full GRI audit trails. The company has now published this claim in three blog posts and grounded their differentiation on it (\"compliance grade accuracy\", \"staged determination at 4 digit -> 6 digit -> 8 digit -> 10 digit\"). But there is no public benchmark they can point a Fortune 500 customs director at to verify the claim.",
-  "direction": "The first public, reasoning aware HTS classification benchmark - built on CROSS rulings, scored on both code accuracy and GRI citation fidelity. GingerControl tops the leaderboard on day one.",
+  "direction": "The first public, reasoning aware HTS classification benchmark \u2014 built on CROSS rulings, scored on both code accuracy and GRI citation fidelity. GingerControl tops the leaderboard on day one.",
   "why": "Reasoning chain F1 over citation subtrees is a real, defensible methodological contribution. It generalises to any regulated AI vertical (tax, drug labelling, FDA) - the founders will see the platform play immediately.",
   "terms": [
     "gingercontrol",
